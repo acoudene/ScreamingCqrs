@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Anthony COUDENE",
+  "classifications": [ "Api", "Architecture", "Blazor" ],
+  "name": "Screaming CQRS Architecture",
+  "identity": "acoudene.scqrs", // Unique name for this template
+  "groupIdentity": "acoudene.scqrs",
+  "shortName": "scqrs", // Short name that can be used on the cli
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "sourceName": "Feature", // Will replace this string with the value provided via -n.
+  "symbols": {
+    "entity": {
+      "type": "parameter",
+      "defaultValue": "MyEntity",
+      "replaces": "EntityName"
+    },
+    "lcFirstLetter": {
+      "type": "derived",
+      "valueSource": "entity",
+      "valueTransform": "lowerCaseFirstLetter"
+    },
+    "aftFirstLetter": {
+      "type": "derived",
+      "valueSource": "entity",
+      "valueTransform": "afterFirstLetter"
+    },
+    "entityCamelCaseContentName": {
+      "type": "generated",
+      "generator": "join",
+      "replaces": "entityName",
+      "parameters": {
+        "symbols": [
+          {
+            "type": "ref",
+            "value": "lcFirstLetter"
+          },
+          {
+            "type": "ref",
+            "value": "aftFirstLetter"
+          }
+        ]
+      }
+    },
+    "entityFileName": {
+      "type": "derived",
+      "valueSource": "entity",
+      "valueTransform": "replace",
+      "fileRename": "EntityName"
+    },
+    "company": {
+      "type": "parameter",
+      "defaultValue": "MyCompany",
+      "replaces": "Company"
+    },
+    "companyFileName": {
+      "type": "derived",
+      "valueSource": "company",
+      "valueTransform": "replace",
+      "fileRename": "Company"
+    },
+    "feature": {
+      "type": "derived",
+      "valueSource": "name",
+      "valueTransform": "replace",
+      "replaces": "Feature"
+    },
+    "featureFileName": {
+      "type": "derived",
+      "valueSource": "name",
+      "valueTransform": "replace",
+      "fileRename": "Feature"
+    }
+  },
+  "forms": {
+    "lowerCaseFirstLetter": {
+      "identifier": "chain",
+      "steps": [
+        "firstLetter",
+        "lowerCase"
+      ]
+    },
+    "firstLetter": {
+      "identifier": "replace",
+      "pattern": "^(.)(.*)",
+      "replacement": "$1"
+    },
+    "afterFirstLetter": {
+      "identifier": "replace",
+      "pattern": "^(.)(.*)",
+      "replacement": "$2"
+    },
+    "lowerCase": {
+      "identifier": "lowerCase"
+    }    
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [ ".vs/**" ]
+        }
+      ]
+    }
+  ],
+  "preferNameDirectory": "true"
+}
