@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Domain", "Company.Feature.Domain\Company.Feature.Domain.csproj", "{F12A752C-C6F7-4D92-D99E-27097D8F908D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Domain", "src\Company.Feature.Domain\Company.Feature.Domain.csproj", "{F12A752C-C6F7-4D92-D99E-27097D8F908D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{5F452E80-6694-446E-B0FE-37263C19CDBA}"
 EndProject
@@ -10,21 +10,40 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design", "Design", "{A434807F-5E78-4A26-A74D-C3020DEFADB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Contracts", "Company.Feature.Api.Contracts\Company.Feature.Api.Contracts.csproj", "{20F8D1D4-9EBB-402E-A20C-78A33A0144C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Contracts", "src\Company.Feature.Api.Contracts\Company.Feature.Api.Contracts.csproj", "{20F8D1D4-9EBB-402E-A20C-78A33A0144C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Proxy", "Company.Feature.Api.Proxy\Company.Feature.Api.Proxy.csproj", "{335CD48A-CEF2-47B7-8F39-0BA7ACE2174E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Proxy", "src\Company.Feature.Api.Proxy\Company.Feature.Api.Proxy.csproj", "{335CD48A-CEF2-47B7-8F39-0BA7ACE2174E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Web", "Company.Feature.Api.Web\Company.Feature.Api.Web.csproj", "{20AEE446-B46D-4D23-87FD-DDD44DEE33E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Web", "src\Company.Feature.Api.Web\Company.Feature.Api.Web.csproj", "{20AEE446-B46D-4D23-87FD-DDD44DEE33E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.MongoDb", "Company.Feature.MongoDb\Company.Feature.MongoDb.csproj", "{34A83F81-AB0C-4E57-858E-0BFF23761C19}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.MongoDb", "src\Company.Feature.MongoDb\Company.Feature.MongoDb.csproj", "{34A83F81-AB0C-4E57-858E-0BFF23761C19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Application", "Company.Feature.Application\Company.Feature.Application.csproj", "{15619758-10D3-D5A2-73D3-589BCC714B0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Application", "src\Company.Feature.Application\Company.Feature.Application.csproj", "{15619758-10D3-D5A2-73D3-589BCC714B0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Design.Tokens", "Company.Feature.Design.Tokens\Company.Feature.Design.Tokens.csproj", "{1A85F8BF-219E-23F0-E939-DAD22AF9B4B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Design.Tokens", "src\Company.Feature.Design.Tokens\Company.Feature.Design.Tokens.csproj", "{1A85F8BF-219E-23F0-E939-DAD22AF9B4B8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F7C3EC33-FFFF-46CD-8C1D-746A9778D269}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Documentation", "_Documentation", "{3DAC6FB3-ED31-4A6B-BCCB-3C593588F1F8}"
+	ProjectSection(SolutionItems) = preProject
+		docs\Design.md = docs\Design.md
+		docs\Glossary.md = docs\Glossary.md
+		docs\Risks.md = docs\Risks.md
+		docs\Scenarios.md = docs\Scenarios.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.MongoDb.Tests", "tests\Company.Feature.MongoDb.Tests\Company.Feature.MongoDb.Tests.csproj", "{08528E62-FDD3-4015-B47D-76402B9401B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Proxy.Tests", "tests\Company.Feature.Api.Proxy.Tests\Company.Feature.Api.Proxy.Tests.csproj", "{6E61C901-43BD-4DCF-A706-D58922DA1A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Web.Tests", "tests\Company.Feature.Api.Web.Tests\Company.Feature.Api.Web.Tests.csproj", "{523A376C-15F2-43C3-8488-E69829181581}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C35FEF06-9BFC-4CEA-8451-9A84DF22915C}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +79,18 @@ Global
 		{1A85F8BF-219E-23F0-E939-DAD22AF9B4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A85F8BF-219E-23F0-E939-DAD22AF9B4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A85F8BF-219E-23F0-E939-DAD22AF9B4B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08528E62-FDD3-4015-B47D-76402B9401B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08528E62-FDD3-4015-B47D-76402B9401B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08528E62-FDD3-4015-B47D-76402B9401B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08528E62-FDD3-4015-B47D-76402B9401B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E61C901-43BD-4DCF-A706-D58922DA1A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E61C901-43BD-4DCF-A706-D58922DA1A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E61C901-43BD-4DCF-A706-D58922DA1A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E61C901-43BD-4DCF-A706-D58922DA1A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{523A376C-15F2-43C3-8488-E69829181581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{523A376C-15F2-43C3-8488-E69829181581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{523A376C-15F2-43C3-8488-E69829181581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{523A376C-15F2-43C3-8488-E69829181581}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +103,9 @@ Global
 		{34A83F81-AB0C-4E57-858E-0BFF23761C19} = {28AEC928-30C4-4F9C-9F51-8F5009ADC238}
 		{15619758-10D3-D5A2-73D3-589BCC714B0D} = {F7C3EC33-FFFF-46CD-8C1D-746A9778D269}
 		{1A85F8BF-219E-23F0-E939-DAD22AF9B4B8} = {A434807F-5E78-4A26-A74D-C3020DEFADB8}
+		{08528E62-FDD3-4015-B47D-76402B9401B6} = {28AEC928-30C4-4F9C-9F51-8F5009ADC238}
+		{6E61C901-43BD-4DCF-A706-D58922DA1A03} = {5F452E80-6694-446E-B0FE-37263C19CDBA}
+		{523A376C-15F2-43C3-8488-E69829181581} = {5F452E80-6694-446E-B0FE-37263C19CDBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8D662078-9285-439C-9C13-B7B98EDB2AAB}
