@@ -8,7 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{5F452E80-669
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{28AEC928-30C4-4F9C-9F51-8F5009ADC238}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design", "Design", "{A434807F-5E78-4A26-A74D-C3020DEFADB8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{A434807F-5E78-4A26-A74D-C3020DEFADB8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Contracts", "src\Company.Feature.Api.Contracts\Company.Feature.Api.Contracts.csproj", "{20F8D1D4-9EBB-402E-A20C-78A33A0144C5}"
 EndProject
@@ -20,7 +20,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.MongoDb", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Application", "src\Company.Feature.Application\Company.Feature.Application.csproj", "{15619758-10D3-D5A2-73D3-589BCC714B0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Design.Tokens", "src\Company.Feature.Design.Tokens\Company.Feature.Design.Tokens.csproj", "{1A85F8BF-219E-23F0-E939-DAD22AF9B4B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.UI.Tokens", "src\Company.Feature.UI.Tokens\Company.Feature.UI.Tokens.csproj", "{1A85F8BF-219E-23F0-E939-DAD22AF9B4B8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -44,6 +44,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diagrams", "Diagrams", "{8EA812AE-1C45-402E-8282-78BF94EF8F8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -106,6 +108,7 @@ Global
 		{08528E62-FDD3-4015-B47D-76402B9401B6} = {28AEC928-30C4-4F9C-9F51-8F5009ADC238}
 		{6E61C901-43BD-4DCF-A706-D58922DA1A03} = {5F452E80-6694-446E-B0FE-37263C19CDBA}
 		{523A376C-15F2-43C3-8488-E69829181581} = {5F452E80-6694-446E-B0FE-37263C19CDBA}
+		{8EA812AE-1C45-402E-8282-78BF94EF8F8F} = {3DAC6FB3-ED31-4A6B-BCCB-3C593588F1F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8D662078-9285-439C-9C13-B7B98EDB2AAB}
