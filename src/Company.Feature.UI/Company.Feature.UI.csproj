@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Components\" />
+    <Folder Include="Shared\" />
+    <Folder Include="Services\" />
+    <Folder Include="Pages\" />
+  </ItemGroup>
+
 </Project>
