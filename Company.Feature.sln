@@ -38,7 +38,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Proxy.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Web.Tests", "tests\Company.Feature.Api.Web.Tests\Company.Feature.Api.Web.Tests.csproj", "{523A376C-15F2-43C3-8488-E69829181581}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C35FEF06-9BFC-4CEA-8451-9A84DF22915C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{C35FEF06-9BFC-4CEA-8451-9A84DF22915C}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
