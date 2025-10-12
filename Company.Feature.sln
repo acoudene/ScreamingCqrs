@@ -56,7 +56,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.BlazorApp",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Application.Tests", "tests\Company.Feature.Application.Tests\Company.Feature.Application.Tests.csproj", "{B520C6E3-ECAE-41B8-BB38-4FA06C147D8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Features.Architecture.Tests", "tests\Company.Features.Architecture.Tests\Company.Features.Architecture.Tests.csproj", "{2B622FBB-8AA6-43EE-ABAB-D51300C7BC82}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Architecture.Tests", "tests\Company.Feature.Architecture.Tests\Company.Feature.Architecture.Tests.csproj", "{2B622FBB-8AA6-43EE-ABAB-D51300C7BC82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Performance.Tests", "tests\Company.Feature.Performance.Tests\Company.Feature.Performance.Tests.csproj", "{3C1F650C-C3DB-76F1-6AE3-B8216FB45012}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -120,6 +122,10 @@ Global
 		{2B622FBB-8AA6-43EE-ABAB-D51300C7BC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B622FBB-8AA6-43EE-ABAB-D51300C7BC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B622FBB-8AA6-43EE-ABAB-D51300C7BC82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C1F650C-C3DB-76F1-6AE3-B8216FB45012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C1F650C-C3DB-76F1-6AE3-B8216FB45012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C1F650C-C3DB-76F1-6AE3-B8216FB45012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C1F650C-C3DB-76F1-6AE3-B8216FB45012}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -140,6 +146,7 @@ Global
 		{18420B10-CDB5-4222-A530-6743254A9468} = {C67E6010-C896-42E8-924A-AE119FDD8233}
 		{B520C6E3-ECAE-41B8-BB38-4FA06C147D8A} = {F7C3EC33-FFFF-46CD-8C1D-746A9778D269}
 		{2B622FBB-8AA6-43EE-ABAB-D51300C7BC82} = {C67E6010-C896-42E8-924A-AE119FDD8233}
+		{3C1F650C-C3DB-76F1-6AE3-B8216FB45012} = {C67E6010-C896-42E8-924A-AE119FDD8233}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8D662078-9285-439C-9C13-B7B98EDB2AAB}

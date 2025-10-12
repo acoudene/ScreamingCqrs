@@ -1,6 +1,6 @@
 ﻿using NetArchTest.Rules;
 
-namespace Company.Features.Architecture.Tests;
+namespace Company.Feature.Architecture.Tests;
 
 public class ArchitectureTests
 {
