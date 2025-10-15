@@ -24,4 +24,8 @@
     <Folder Include="Queries\Validations\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Company.Feature.Domain\Company.Feature.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
