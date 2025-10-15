@@ -23,6 +23,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Company.Feature.Domain\Company.Feature.Domain.csproj" />
+    <ProjectReference Include="..\..\src\Company.Feature.UseCases\Company.Feature.UseCases.csproj" />
   </ItemGroup>
 
   <ItemGroup>
