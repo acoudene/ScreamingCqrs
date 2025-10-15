@@ -14,4 +14,9 @@
     <PackageReference Include="Aspire.Hosting.AppHost" Version="9.3.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Company.Feature.ApiApp\Company.Feature.ApiApp.csproj" />
+    <ProjectReference Include="..\..\Company.Feature.BlazorApp\Company.Feature.BlazorApp\Company.Feature.BlazorApp.csproj" />
+  </ItemGroup>
+
 </Project>

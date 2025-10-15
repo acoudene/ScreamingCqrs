@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Company.Feature.Aspire\Company.Feature.Aspire.ServiceDefaults\Company.Feature.Aspire.ServiceDefaults.csproj" />
     <ProjectReference Include="..\Company.Feature.BlazorApp.Client\Company.Feature.BlazorApp.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.8" />
   </ItemGroup>

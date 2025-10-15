@@ -60,9 +60,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Proxies
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Razors", "src\Company.Feature.Razors\Company.Feature.Razors.csproj", "{F182E8BB-A990-2694-81D9-6753029FC31F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.AspireApp.AppHost", "src\Company.Feature.AspireApp\Company.Feature.AspireApp.AppHost\Company.Feature.AspireApp.AppHost.csproj", "{F3442266-D153-405A-BE27-5B5F843DF243}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Aspire.AppHost", "src\Company.Feature.Aspire\Company.Feature.Aspire.AppHost\Company.Feature.Aspire.AppHost.csproj", "{F3442266-D153-405A-BE27-5B5F843DF243}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.AspireApp.ServiceDefaults", "src\Company.Feature.AspireApp\Company.Feature.AspireApp.ServiceDefaults\Company.Feature.AspireApp.ServiceDefaults.csproj", "{B89B92DA-EA98-C5F4-FE44-AA216D0DDFB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Aspire.ServiceDefaults", "src\Company.Feature.Aspire\Company.Feature.Aspire.ServiceDefaults\Company.Feature.Aspire.ServiceDefaults.csproj", "{B89B92DA-EA98-C5F4-FE44-AA216D0DDFB1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.BlazorApp", "src\Company.Feature.BlazorApp\Company.Feature.BlazorApp\Company.Feature.BlazorApp.csproj", "{05EDCAEE-D890-41BE-A068-42889B67CF7F}"
 EndProject
