@@ -9,15 +9,14 @@ public class ArchitectureTests
 
   private static List<string> GetInvalidDependencies(string assemblyName, string[] allowedPrefixes)
   {
-    /// Arrange
     var assembly = Assembly.Load(assemblyName);
 
-    /// Act
     var referencedAssemblies = assembly.GetReferencedAssemblies();
     var invalidRefs = referencedAssemblies
       .Where(a => !allowedPrefixes.Any(prefix => a.Name is not null && a.Name.StartsWith(prefix)))
       .Select(a => (a.Name is not null) ? a.Name : string.Empty)
       .ToList();
+    
     return invalidRefs;
   }
 
