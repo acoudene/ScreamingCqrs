@@ -1,4 +1,4 @@
-using Company.Feature.BlazorApp.Components;
+using Company.Feature.Blazor.AppHost.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +32,6 @@ app.UseAntiforgery();
 app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveWebAssemblyRenderMode()
-    .AddAdditionalAssemblies(typeof(Company.Feature.BlazorApp.Client._Imports).Assembly);
+    .AddAdditionalAssemblies(typeof(Company.Feature.Blazor.AppHost.Client._Imports).Assembly);
 
 app.Run();

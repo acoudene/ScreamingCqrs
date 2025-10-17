@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <Sdk Name="Aspire.AppHost.Sdk" Version="9.3.1" />
 
@@ -15,8 +15,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Company.Feature.ApiApp\Company.Feature.ApiApp.csproj" />
-    <ProjectReference Include="..\..\Company.Feature.BlazorApp\Company.Feature.BlazorApp\Company.Feature.BlazorApp.csproj" />
+    <ProjectReference Include="..\..\Company.Feature.Api.AppHost\Company.Feature.Api.AppHost.csproj" />
+    <ProjectReference Include="..\..\Company.Feature.Blazor\Company.Feature.Blazor.AppHost\Company.Feature.Blazor.AppHost.csproj" />
   </ItemGroup>
 
 </Project>
