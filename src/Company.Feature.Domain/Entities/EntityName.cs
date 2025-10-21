@@ -7,5 +7,9 @@ namespace Company.Feature.Domain.Entities;
 
 public record EntityName
 {
-  public Id Id { get; init; }
+  public Id Id { get; init; } = new();
+
+  public AuditInfo Audit { get; init; } = new();
+
+  public ShortText Name { get; init; }
 }

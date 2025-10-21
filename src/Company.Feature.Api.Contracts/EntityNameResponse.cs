@@ -2,5 +2,5 @@
 
 namespace Company.Feature.Api.Contracts;
 
-public record EntityNameDto(Id Id);
+public record EntityNameResponse(Id Id);
 

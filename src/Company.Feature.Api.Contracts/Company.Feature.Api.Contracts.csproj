@@ -7,24 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Commands\Dtos\**" />
-    <Compile Remove="Queries\Dtos\**" />
-    <EmbeddedResource Remove="Commands\Dtos\**" />
-    <EmbeddedResource Remove="Queries\Dtos\**" />
-    <None Remove="Commands\Dtos\**" />
-    <None Remove="Queries\Dtos\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Commands\Requests\" />
-    <Folder Include="Commands\Responses\" />
-    <Folder Include="Commands\Validations\" />
-    <Folder Include="Queries\Requests\" />
-    <Folder Include="Queries\Responses\" />
-    <Folder Include="Queries\Validations\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Company.Feature.Domain\Company.Feature.Domain.csproj" />
   </ItemGroup>
 

@@ -2,7 +2,12 @@
 
 public readonly record struct Id(Guid Value)
 {
-  public static Id New() => new Id(Guid.NewGuid());
+  public Id() : this(Guid.NewGuid())
+  {
+  }  
 
   public override string ToString() => Value.ToString();
+
+  public static implicit operator Guid(Id id) => id.Value;
+  public static implicit operator Id(Guid value) => new(value);
 }
