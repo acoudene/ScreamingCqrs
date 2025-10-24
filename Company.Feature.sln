@@ -28,7 +28,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Documentation", "_Document
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.MongoDb.Tests", "tests\Company.Feature.MongoDb.Tests\Company.Feature.MongoDb.Tests.csproj", "{08528E62-FDD3-4015-B47D-76402B9401B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Proxies.Tests", "tests\Company.Feature.Api.Proxies.Tests\Company.Feature.Api.Proxies.Tests.csproj", "{6E61C901-43BD-4DCF-A706-D58922DA1A03}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Clients.Tests", "tests\Company.Feature.Api.Clients.Tests\Company.Feature.Api.Clients.Tests.csproj", "{6E61C901-43BD-4DCF-A706-D58922DA1A03}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Endpoints.Tests", "tests\Company.Feature.Api.Endpoints.Tests\Company.Feature.Api.Endpoints.Tests.csproj", "{523A376C-15F2-43C3-8488-E69829181581}"
 EndProject
@@ -52,7 +52,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.UseCases", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Endpoints", "src\Company.Feature.Api.Endpoints\Company.Feature.Api.Endpoints.csproj", "{E70886E3-77AE-EE69-F6E7-F68393210694}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Proxies", "src\Company.Feature.Api.Proxies\Company.Feature.Api.Proxies.csproj", "{C513B714-35C8-5D1F-20DA-477FB7B24918}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Api.Clients", "src\Company.Feature.Api.Clients\Company.Feature.Api.Clients.csproj", "{C513B714-35C8-5D1F-20DA-477FB7B24918}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.Feature.Aspire.AppHost", "src\Company.Feature.Aspire\Company.Feature.Aspire.AppHost\Company.Feature.Aspire.AppHost.csproj", "{F3442266-D153-405A-BE27-5B5F843DF243}"
 EndProject

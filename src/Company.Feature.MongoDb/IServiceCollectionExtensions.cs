@@ -4,7 +4,7 @@ using MongoDB.Driver;
 
 namespace Company.Feature.MongoDb;
 
-public static class MongoDbSetup
+public static class IServiceCollectionExtensions
 {
   public static IServiceCollection AddMongoInfrastructure(this IServiceCollection services, string connectionString)
   {
